@@ -1,0 +1,112 @@
+/* .App {
+    align-items: center;
+    background-color: #80808080;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;
+    height: 93vh;
+}
+.inputStyle{
+    margin-top: 10px;
+    padding: 3px;
+    text-align: center;
+}
+.box {
+    margin: 5px;
+}
+.comboBox {
+    margin: 10px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&family=Gamja+Flower&family=Gloria+Hallelujah&family=Gochi+Hand&family=Handlee&family=Indie+Flower&family=Itim&family=Kalam:wght@400;700&family=Merienda:wght@400;700&family=Nanum+Pen+Script&family=Pangolin&family=Patrick+Hand&family=Poppins&family=Sriracha&family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gloria Halleluja', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}    
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+:root {
+    --blue: #287bff;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+    --red: #cf1b1b;
+}
+
+
+
+body::-webkit-scrollbar {
+    /* -webkit-appearance: none; */
+    width: 11px;
+}
+/* body::-webkit-scrollbar:vertical {
+    width: 11px;
+} */
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgb(169, 15, 15)
+}
+body::-webkit-scrollbar-track { 
+    background-color: #fff; 
+    border-radius: 8px; 
+} 
+/* .App {
+    text-align: center;
+    /* position: relative; */
+    /* width: 100%;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #0099f7, #f11712);   
+}
+*/
+/* .react-datepicker__tab-loop {
+    left: 50px !important;
+    position: absolute !important;
+    top: -5px !important;
+    z-index: 10;
+} */
+
+.css-fvipm8.Mui-focused .MuiOutlinedInput-notchedOutline, .css-1v4ccyo.Mui-focused .MuiOutlinedInput-notchedOutline  {
+    border-color: var(--black1) !important;
+}
+.css-u9osun.Mui-focused {
+    color: var(--black1) !important;
+}
+.ceEIkZ {
+    border-radius: 8px !important;
+}
+.css-1a5icme.Mui-checked {
+    color: #cf1b1b !important;
+}
+.react-datepicker__day--selected {
+    background-color: #cf1b1b !important;
+}
+
+.react-datepicker__day--keyboard-selected:hover {
+    background-color: #9c0d0d !important;
+}
+
+.react-datepicker__day--keyboard-selected:hover {
+    background-color: #cf1b1b !important;
+}
